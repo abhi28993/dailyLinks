@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // How do you redeclare variables in switch block without an error
+        log = console.log;
+
+        let a = "amit_kuamr";
+        let choice = parseInt(prompt("Enter number 1 or 2"))
+        switch (choice) {
+            case 1:
+                a = "Amit_Kumar";
+                log(a);
+                break;
+            case 2:
+                a = "Amit Kumar"
+                log(a);
+                break;
+            default:
+                log("Invalid");
+        }
+    </script>
+</body>
+
+</html>
